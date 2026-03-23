@@ -1,6 +1,6 @@
 # SMPL Data Converter
 
-AMASS 动作数据 → Drake / MuJoCo retargeting 格式。
+AMASS 动作数据 → Drake / MuJoCo格式。
 
 ## 准备
 
