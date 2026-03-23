@@ -6,7 +6,9 @@ AMASS 动作数据 → Drake / MuJoCo retargeting 格式。
 
 1. AMASS 数据（SMPL+H G 格式）放入 `input/`
 2. Body model 放入 `models/
-3. `pip install numpy scipy`
+```bash   
+pip install numpy scipy
+```
 
 ## 使用
 
