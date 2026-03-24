@@ -9,14 +9,13 @@ AMASS 动作数据 → Drake / MuJoCo格式。
 ```bash   
 pip install numpy scipy
 ```
-
 ## 使用
 
 ```bash
 python convert_all.py
 ```
 
-输出在 `output/<dataset>/Drake/` 和 `output/<dataset>/MuJoCo/`。
+选择数据集和 body model 类型（smplh / smplx），输出在 `output/<dataset>/Drake/` 和 `output/<dataset>/MuJoCo/`。
 
 ## 引用
 
@@ -37,5 +36,13 @@ python convert_all.py
     month = nov,
     year = {2017},
     month_numeric = {11}
+}
+
+@inproceedings{SMPL-X:2019,
+    title = {Expressive Body Capture: {3D} Hands, Face, and Body from a Single Image},
+    author = {Pavlakos, Georgios and Choutas, Vasileios and Ghorbani, Nima and Bolkart, Timo and Osman, Ahmed A. A. and Tzionas, Dimitrios and Black, Michael J.},
+    booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+    pages = {10975--10985},
+    year = {2019}
 }
 ```
