@@ -4,7 +4,7 @@ AMASS 动作数据 → Drake / MuJoCo格式。
 
 ## 准备
 
-1. AMASS 数据（SMPL+H G 格式）放入 `input/`
+1. AMASS 数据（SMPL+H G/SMPL-X G 格式）放入 `input/`
 2. Body model 放入 `models/
 ```bash   
 pip install numpy scipy
