@@ -15,7 +15,7 @@ pip install numpy scipy
 python convert_all.py
 ```
 
-选择数据集和 body model 类型（smplh / smplx），输出在 `output/<dataset>/Drake/` 和 `output/<dataset>/MuJoCo/`。
+选择数据集和 body model 类型（smplh / smplx），输出在 `output/<dataset>/Drake/` 和 `output/<dataset>/MuJoCo/`(默认帧率30)。
 
 ## 引用
 
